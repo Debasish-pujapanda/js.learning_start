@@ -16,3 +16,18 @@ console.log(newStr);
 
 const str2 = GameName.slice(-2, -1)
 console.log(str2);
+
+const str5 = "  Dev  "
+console.log(str5.trim()) // To remove space from input
+
+const url = "https://Dev.com/Debasish%10pujapanda"
+
+console.log(url.replace('%20', '-')) // replace %20 with - 
+
+console.log(url.includes('Dev')) // To check weather it is avalaible in url or not 
+
+console.log(GameName.split('-')) // Convert string into array basis on - 
+
+
+
+
